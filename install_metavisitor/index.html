@@ -8,7 +8,7 @@
   
   
   
-  <title>Development - Metavisitor manual</title>
+  <title>Intro - Metavisitor manual</title>
   
 
   <link rel="shortcut icon" href="../img/favicon.ico">
@@ -23,9 +23,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Development";
-    var mkdocs_page_input_path = "development.md";
-    var mkdocs_page_url = "/development/";
+    var mkdocs_page_name = "Intro";
+    var mkdocs_page_input_path = "install_metavisitor.md";
+    var mkdocs_page_url = "/install_metavisitor/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -56,33 +56,86 @@
           
             <li>
     <li class="toctree-l1 ">
-        <a class="" href="..">Home</a>
+        <a class="" href="..">Metavisitor</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../metavisitor_configure_references/">Prepare Metavisitor Galaxy instance for analyses</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../use_cases_input_data/">Prepare input data histories</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../use_case_1/">Use Cases 1-1 to 1-4</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../use_case_2/">Use Cases 2-1 and 2-2</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../use_case_3-1/">Use Case 3-1</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../use_case_3-2/">Use Case 3-2</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../use_case_3-3/">Use Case 3-3</a>
         
     </li>
 <li>
           
             <li>
     <ul class="subnav">
-    <li><span>Metavisitor</span></li>
+    <li><span>Install_Metavisitor</span></li>
 
         
             
-    <li class="toctree-l1 ">
-        <a class="" href="../about_metavisitor/">About metavisitor</a>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Intro</a>
+        
+            <ul>
+            
+            </ul>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../metavisitor_ansible/">Installing with GalaxyKickStart</a>
+        <a class="" href="../metavisitor_ansible/">GalaxyKickStart</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../metavisitor_docker/">Installing with Docker</a>
+        <a class="" href="../metavisitor_docker/">Docker</a>
         
     </li>
 
@@ -94,70 +147,7 @@
     </li>
 
         
-            
-    <li class="toctree-l1 ">
-        <a class="" href="../metavisitor_configure_references/">Prepare Metavisitor Galaxy instance for analyses</a>
-        
-    </li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="../use_cases_input_data/">Prepare input data histories</a>
-        
-    </li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="../use_case_1/">Use Cases 1-1 to 1-4</a>
-        
-    </li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="../use_case_2/">Use Cases 2-1 and 2-2</a>
-        
-    </li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="../use_case_3-1/">Use Case 3-1</a>
-        
-    </li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="../use_case_3-2/">Use Case 3-2</a>
-        
-    </li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="../use_case_3-3/">Use Case 3-3</a>
-        
-    </li>
-
-        
     </ul>
-<li>
-          
-            <li>
-    <li class="toctree-l1 current">
-        <a class="current" href="./">Development</a>
-        
-            <ul>
-            
-                <li class="toctree-l3"><a href="#fixing-submodule-issues">Fixing submodule issues</a></li>
-                
-            
-            </ul>
-        
-    </li>
 <li>
           
         </ul>
@@ -181,8 +171,12 @@
     <li><a href="..">Docs</a> &raquo;</li>
     
       
+        
+          <li>Install_Metavisitor &raquo;</li>
+        
+      
     
-    <li>Development</li>
+    <li>Intro</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -192,49 +186,19 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="fixing-submodule-issues">Fixing submodule issues</h2>
-<p>This project is using roles from different places, and these are included as git submodules. 
-In a development cycle it may occur that the url of a repo changes, or that we have removed certain commits (We aim to avoid this). 
-If at any point you find yourself in the situation where a git checkout of submodules does not work, you can follow this procedure: 
-(galaxyprojectdotorg.galaxy-extras as an example, replace this with the problematic role)</p>
-<p>Skip the git clone if you already cloned the repo.</p>
-<pre><code>git clone --recursive https://github.com/ARTbio/GalaxyKickStart.git
-cd GalaxyKickStart/
-</code></pre>
-
-<p>Enter the directory of the problematic submodule</p>
-<pre><code>cd roles/galaxyprojectdotorg.galaxy-extras/
-</code></pre>
-
-<p>Verify that you have the correct remote.
-You can find the correct remote in GalaxyKickStart/.gitmodules</p>
-<pre><code>git remote -v
-</code></pre>
-
-<p>If this is not the correct remote, change back to the GalaxyKickStart directory and do</p>
-<pre><code>git submodule sync
-</code></pre>
-
-<p>Get the latest changesets (change back to the submodule directory if you had to sync the submodules)</p>
-<pre><code>git fetch
-</code></pre>
-
-<pre><code>Check which branch you are on. You want to checkout the master branch.
-
-</code></pre>
-
-<p>git checkout master
-git add galaxyprojectdotorg.galaxy-extras
-git commit -m "Fix galaxy-extras submodule revision"
-```</p>
-<p>If you push this work back to github and you compare your repo with GalaxyKickStart/master, you should not see any changes
-that look like <code>Subproject commit 8265bdceaf0eca5ea4daeda06eb0d28583754ef6</code> (unless you have intentionally updated a submodule).</p>
+                <p>In the next three chapters, we provide documentation on two methods to set up a Galaxy server instances <em>from scratch</em> with <em>pre-installed</em> Metavisitor tools and workflows:</p>
+<ul>
+<li>Based on GalaxyKickstarter: see <a href="../metavisitor_ansible/">Metavisitor with GalaxyKickstarter (Ansible)</a></li>
+<li>Based on Docker: see <a href="../metavisitor_docker/">Metavitor with Docker</a></li>
+</ul>
               
             </div>
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../metavisitor_ansible/" class="btn btn-neutral float-right" title="GalaxyKickStart">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../use_case_3-3/" class="btn btn-neutral" title="Use Case 3-3"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -265,6 +229,8 @@ that look like <code>Subproject commit 8265bdceaf0eca5ea4daeda06eb0d28583754ef6<
       
         <span><a href="../use_case_3-3/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
+      
+        <span style="margin-left: 15px"><a href="../metavisitor_ansible/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

@@ -10,9 +10,65 @@
     
 
     
+    <url>
+     <loc>None/metavisitor_configure_references/</loc>
+     <lastmod>2016-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/use_cases_input_data/</loc>
+     <lastmod>2016-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/use_case_1/</loc>
+     <lastmod>2016-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/use_case_2/</loc>
+     <lastmod>2016-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/use_case_3-1/</loc>
+     <lastmod>2016-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/use_case_3-2/</loc>
+     <lastmod>2016-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/use_case_3-3/</loc>
+     <lastmod>2016-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
         
     <url>
-     <loc>None/about_metavisitor/</loc>
+     <loc>None/install_metavisitor/</loc>
      <lastmod>2016-10-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -35,56 +91,6 @@
      <changefreq>daily</changefreq>
     </url>
         
-    <url>
-     <loc>None/metavisitor_configure_references/</loc>
-     <lastmod>2016-10-14</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/use_cases_input_data/</loc>
-     <lastmod>2016-10-14</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/use_case_1/</loc>
-     <lastmod>2016-10-14</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/use_case_2/</loc>
-     <lastmod>2016-10-14</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/use_case_3-1/</loc>
-     <lastmod>2016-10-14</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/use_case_3-2/</loc>
-     <lastmod>2016-10-14</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/use_case_3-3/</loc>
-     <lastmod>2016-10-14</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-    <url>
-     <loc>None/development/</loc>
-     <lastmod>2016-10-14</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
     
 
 </urlset>
