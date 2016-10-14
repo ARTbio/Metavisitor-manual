@@ -127,7 +127,7 @@ In that case, when your changes are done, just run again the command
 ansible-playbook --inventory-file=hosts galaxy.yml
 ```
 When you run the playbook a second time, the process will be much faster, since steps that have already been executed are skipped.
-Whenever you change a variable (see [customizations](customizations.md)), you need to run the playbook again.
+Whenever you change a variable (see [customizations](https://artbio.github.io/GalaxyKickStart/customizations/)), you need to run the playbook again.
 
 
 You can put multiple machines in your inventory: a simple way to do this is just copying the line the required number of times with the appropriate ip addresses:
