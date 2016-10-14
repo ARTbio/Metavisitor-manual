@@ -1,19 +1,15 @@
----
 language: python
-python: "2.7"
+python: '2.7'
 sudo: required
 dist: trusty
-
 env:
   global:
-    - TOX_ENV=py27
-    - SITE_URL="https://artbio.github.io/Metavisitor-manual/"
-    - GH_USER_NAME="Christophe Antoniewski"
-    - GH_USER_EMAIL="drosofff@gmail.com"
-    - GH_REF="github.com/ARTbio/Metavisitor-manual.git"
-    - secure: K1DeSgUJ/udYopph/Z+8+ZtedpzAt0DrTkaLkUIIubALdpLzw2261OAM8kRfkoChnJhQLUOYPVBzTdw1rZqKwHrKwe0zFm9P/p8nuZPq1Ut4xGQOCEUMlhEaa6cctJYDE2J6UbDgsknAQAjMKHeDlr+SQXwbNTlJJfIUhS+xIjvP8Ofequ1dwpDFh77SI6SBWVcDkWBBPdjG8wGLbqESWcEkBdAedMxYlxBY19zjMjQhF5qoIDOKUvvrXas5HcTONi7VL+hw78vIHJezD9hOxUOP3eh8BDvTCD2dSrMZszKh5cEHEFcxQ7kT0wCMEa6WXwG6aInqgbXh4hvVczs9DPN0yoSygJCNh49pPj79ont59qgp8cZJkelpDwSmpNDacXdTZRGM/aSxXXRWKZbqj778wDmCMwQdNXo4s3avPnx/iscSvQSAmcVolrT5AqA2YqIAvMgdoXU3GSM4oWlMe850AWSAzO3W2HjXRb2pGPiTcUugjIFkzqxtICiySaZ18prD6gIepbDEwrnE80nKGtvPUZIH4Rb2dU13vEMgIAZA+/K+0ntwyOcIVBB4P5CMJDpDMEM163B6l6K7d/eM8HYhCAiubKIs6IdF5YlMv0v4Ysra1EbPTgVGlUwQh4be+LNN7jDBkc0E/nHvnVN3KdOm0nOcmVFZKlIjr+El2NU=
-
+  - TOX_ENV=py27
+  - SITE_URL="https://artbio.github.io/Metavisitor-manual/"
+  - GH_USER_NAME="Christophe Antoniewski"
+  - GH_USER_EMAIL="drosofff@gmail.com"
+  - GH_REF="github.com/ARTbio/Metavisitor-manual.git"
+  - secure: sKzkHCF+Ja4sHPgXQcnFmDT+5dGu3QaLilK8UBzDLSbhlavzMZMGUhacxdrn4fL03i0WP+B0PkIR6Nx/kteM71d3Un0NL9e2OmFmuHztRM/OGCQLyaakAWbLUVe3TCpoH9Bjuat4RNmTykm4DrfTvOFa1sRzsGeq4apSxKeObvKG7269zQRta6gmHfqEeF2S0iJk/8HOrPxyGzZNNsgptFwujtGIiUWV9w0hhPTGkmtWoSh8dShCn3j7WFfqCRtOAY33pS7minl5nF6ten+/Q9vW+73vMg4wv8+7Tdn4PzVuMxzQ1d6Qi424HSoDzBufLZeDzYD8Twy/PzUbm1EtKFrg5c4LwWwzasIR3hJ8xDUJX5iQHPGiAOLjwbeNwleaL9KQY915TKACwECk4EpOuL/KkRhPK3T5ixjhxiVrKm8hyC7ihh+E0lny7MgGaFjCJlqC3FhodMQmCsxV1XO6onCEnOnJ2LdEjg5T+yp7GPJjYI1lW+JzmqtaTXEpP9hLg3P2D/8aNdSS/DV+miaXm8zY8Zg6+PZnI+lm1XZxT6vqA6wnTNDEoxf/qSS4wWFsjURmKOOMS0plsgvuRrK16wCyfZVj8qUhUFl0eTtB1BBRB6l5JNgsF86NuxD7apc/8Ld9eIGGnNSQYUFPtZpBwjhnfY6yWyWYuv4iLyrl+xM=
 install: true
-
 script:
-  - bash ./deploy.sh
+- bash ./deploy.sh
