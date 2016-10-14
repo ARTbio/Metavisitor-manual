@@ -2,6 +2,11 @@
 
 [Metavisitor](http://dx.doi.org/10.1101/048983) is a user-friendly and adaptable software to provide biologists, clinical researchers and possibly diagnostic clinicians with the ability to robustly detect and reconstruct viral genomes from complex deep sequence datasets. A set of modular bioinformatic tools and workflows was implemented as the Metavisitor package in the Galaxy framework. Using the graphical Galaxy workflow editor, users with minimal computational skills can use existing Metavisitor workflows or adapt them to suit specific needs by adding or modifying analysis modules.
 
+# Quick Start
+
+Users who want to use Metavisitor on the Galaxy Mississippi Server, or got already the Metavisitor suite of tools installed in their own Galaxy server, can jump to the chapter [Prepare input data histories](use_cases_input_data).
+
+
 ## Availability of Metavisitor tools and workflows
 
 Metavisitor has been developed at the [ARTbio platform](http://artbio.fr). Its tools and workflows are primarily available in [GitHub] (https://github.com/ARTbio/tools-artbio).
@@ -44,13 +49,9 @@ Admins can also install the tools from the `metavisitor_workflows` repository, w
 #### Availability of Metavisitors workflows for any Galaxy instance user.
 We have deposited the Metavisitors workflows in the [myexperiment server](http://www.myexperiment.org/workflows), where they are searchable with "metavisitor" keyword and can be downloaded and reuploaded to the Galaxy instance.
 
-#### Users who have already the Metavisitor suite of tools installed in their Galaxy instance, or who just want to use it on the Galaxy Mississippi Server
-can skip these chapters and go directly to the chapter [Prepare input data histories](use_cases_input_data) and following.
+## Starting a Metavisitor Galaxy server from scratch
 
-
-#### In the next three chapters
-
-We provide documentation on two methods to set up a Galaxy server instances *from scratch* with *pre-installed* Metavisitor tools and workflows.
+In the next three chapters, we provide documentation on two methods to set up a Galaxy server instances *from scratch* with *pre-installed* Metavisitor tools and workflows:
 
 - Based on GalaxyKickstarter: see [Metavisitor with GalaxyKickstarter (Ansible)](metavisitor_ansible.md)
 - Based on Docker: see [Metavitor with Docker](metavisitor_docker.md)
