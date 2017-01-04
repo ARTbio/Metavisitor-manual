@@ -3,64 +3,64 @@
 
     
     <url>
-     <loc>None/</loc>
-     <lastmod>2016-10-14</lastmod>
+     <loc>/</loc>
+     <lastmod>2017-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>None/metavisitor_configure_references/</loc>
-     <lastmod>2016-10-14</lastmod>
+     <loc>/metavisitor_configure_references/</loc>
+     <lastmod>2017-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>None/use_cases_input_data/</loc>
-     <lastmod>2016-10-14</lastmod>
+     <loc>/use_cases_input_data/</loc>
+     <lastmod>2017-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>None/use_case_1/</loc>
-     <lastmod>2016-10-14</lastmod>
+     <loc>/use_case_1/</loc>
+     <lastmod>2017-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>None/use_case_2/</loc>
-     <lastmod>2016-10-14</lastmod>
+     <loc>/use_case_2/</loc>
+     <lastmod>2017-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>None/use_case_3-1/</loc>
-     <lastmod>2016-10-14</lastmod>
+     <loc>/use_case_3-1/</loc>
+     <lastmod>2017-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>None/use_case_3-2/</loc>
-     <lastmod>2016-10-14</lastmod>
+     <loc>/use_case_3-2/</loc>
+     <lastmod>2017-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>None/use_case_3-3/</loc>
-     <lastmod>2016-10-14</lastmod>
+     <loc>/use_case_3-3/</loc>
+     <lastmod>2017-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -68,26 +68,26 @@
     
         
     <url>
-     <loc>None/install_metavisitor/</loc>
-     <lastmod>2016-10-14</lastmod>
+     <loc>/install_metavisitor/</loc>
+     <lastmod>2017-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/metavisitor_ansible/</loc>
-     <lastmod>2016-10-14</lastmod>
+     <loc>/metavisitor_ansible/</loc>
+     <lastmod>2017-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/metavisitor_docker/</loc>
-     <lastmod>2016-10-14</lastmod>
+     <loc>/metavisitor_docker/</loc>
+     <lastmod>2017-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/metavisitor_access_control/</loc>
-     <lastmod>2016-10-14</lastmod>
+     <loc>/metavisitor_access_control/</loc>
+     <lastmod>2017-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
