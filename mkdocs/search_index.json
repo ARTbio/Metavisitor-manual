@@ -352,7 +352,7 @@
         }, 
         {
             "location": "/install_metavisitor/", 
-            "text": "In the next three chapters, we provide documentation on two methods to set up a Galaxy server instances \nfrom scratch\n with \npre-installed\n Metavisitor tools and workflows:\n\n\n\n\nBased on GalaxyKickstarter: see \nMetavisitor with GalaxyKickstarter (Ansible)\n\n\nBased on Docker: see \nMetavitor with Docker", 
+            "text": "In the next three chapters, we provide documentation on two methods to set up a Galaxy server instances \nfrom scratch\n with \npre-installed\n Metavisitor tools and workflows:\n\n\n\n\nBased on GalaxyKickstarter: see \nMetavisitor with GalaxyKickstarter (Ansible)\n\n\nBased on Docker: see \nMetavitor with Docker\n\n\n\n\n For more detailed information on \nGalaxyKickStart\n see its \ndocumentation", 
             "title": "Intro"
         }, 
         {
