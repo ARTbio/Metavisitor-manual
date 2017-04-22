@@ -7,6 +7,7 @@ Here, a `Deployment Machine` will install a Metavisitor Galaxy server on `Target
 
 - On the `Deployment Machine`, [git](https://git-scm.com/downloads) and [ansible](https://docs.ansible.com/ansible/intro_installation.html) need to be installed.
 - The `Target Machine` has to be accessible through ssh connection by the user (you) with `root` privileges. This implies that a correct ssh private key file is available on your `Deployment Machine`, for instance `~/.ssh/id_rsa`. This key will be used for secure transactions managed by ansible between the `Deployment Machine` and the `Target Machine`.
+- see the [GalaxyKickStart manual](https://artbio.github.io/GalaxyKickStart/getting_started/) for more detailed informations on how to install appropriate version of Ansible.
 
 # Getting the ansible playbook
 ----
@@ -14,16 +15,21 @@ This is done on the `Deployment Machine` by cloning the [GalaxyKickStart (Galaxy
 
 In your terminal, type:
 ```
-git clone --recursive https://github.com/ARTbio/GalaxyKickStart.git
+git clone https://github.com/ARTbio/GalaxyKickStart.git
 ```
+and navigate in the GalaxyKickStart folder:
+```
+cd GalaxyKickStart
+```
+
 [//]: # (TODO: Once we do releases, we include the submodules and hence users can just download the playbook without git)
 
-Importantly, GalaxyKickStart makes use of submodules, so care
-needs to be taken to also download these submodules. This is why `--recursive` is included in the git command line.
+GalaxyKickStart makes use of other Ansible roles -- referenced in the `requirements_roles.yml file` -- that need to be downloaded as part of the installation step:
 
-At completion of the git cloning, you will have a new `GalaxyKickStart` folder, which contains everything need for deployment with ansible, including the playbook file (here `galaxy.yml`). You can verify this by typing in terminal:
-
-`ls -la GalaxyKickStart`
+```
+ansible-galaxy install -r requirements_roles.yml -p roles
+```
+This command installs additional roles in the `roles` folder.
 
 # Adapting the GalaxyKickStart folder to your deployment
 ----
@@ -32,7 +38,7 @@ There are only few things to change in the `GalaxyKickStart` folder before runni
 
 ## Adapt the ansible inventory file
 
-In the GalaxyKickStart folder, there is a `hosts` file called the "inventory file".
+In the GalaxyKickStart/inventory_files folder, there is a file called the `metavisitor`.
 For deploying Metavisitor, you need to edit this file so that it just contains
 
 ```
@@ -45,7 +51,7 @@ For deploying Metavisitor, you need to edit this file so that it just contains
 
 The `<ip address>` is the address of the `Target Machine`. The `<path/to/the/ssh/private/key>` is the path *on the `Deployment Machine`* to your ssh key, to be recognized by the `Target Machine`.
 
-Thus, a practical exemple of the final content on the inventory file `hosts` is:
+Thus, a practical exemple of the final content on the inventory file `metavisitor` is:
 
 ```
 
@@ -56,6 +62,17 @@ Thus, a practical exemple of the final content on the inventory file `hosts` is:
 ```
 
 where `192.54.201.126` is the ip address of the `Target machine` and `~/.ssh/id_rsa` the path to the private ssh key.
+
+#### Note that you can also install locally Metavisitor by letting the `metavisitor` inventory file as is:
+
+```
+
+[metavisitor]
+
+localhost ansible_connection=local
+
+```
+
 
 ### Adapt the ansible inventory file to an Amazon Web Service (AWS) virtual machine
 In this specific case, add in the hosts inventory file:
