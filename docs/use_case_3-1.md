@@ -1,4 +1,4 @@
-Now that you've gotten more familiar with manipulations in Galaxy with the Use Cases 1-1 to 1-4 described in detail in the previous chapters, we will describe the other Use Case analyses more concisely. If you experience lack of skills in basic Galaxy operations (tool usage, copy of datasets, etc), do not hesitate to go back and examine the [previous chapters](use_cases_input_data) step by step.
+Now that you are familiar with manipulations in Galaxy with the Use Cases 1-1 to 1-4 described in detail in the previous chapters, we will describe the other Use Case analyses more concisely. If you experience lack of skills in basic Galaxy operations (tool usage, copy of datasets, etc), do not hesitate to go back and examine the [previous chapters](use_cases_input_data) step by step.
 
 
 ## Input data for Use Case 3-1
