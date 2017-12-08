@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2017-11-16</lastmod>
+     <lastmod>2017-12-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
      <loc>/metavisitor_configure_references/</loc>
-     <lastmod>2017-11-16</lastmod>
+     <lastmod>2017-12-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -20,7 +20,7 @@
     
     <url>
      <loc>/use_cases_input_data/</loc>
-     <lastmod>2017-11-16</lastmod>
+     <lastmod>2017-12-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -28,7 +28,7 @@
     
     <url>
      <loc>/use_case_1/</loc>
-     <lastmod>2017-11-16</lastmod>
+     <lastmod>2017-12-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -36,7 +36,7 @@
     
     <url>
      <loc>/use_case_2/</loc>
-     <lastmod>2017-11-16</lastmod>
+     <lastmod>2017-12-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -44,7 +44,7 @@
     
     <url>
      <loc>/use_case_3-1/</loc>
-     <lastmod>2017-11-16</lastmod>
+     <lastmod>2017-12-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -52,7 +52,7 @@
     
     <url>
      <loc>/use_case_3-2/</loc>
-     <lastmod>2017-11-16</lastmod>
+     <lastmod>2017-12-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -60,7 +60,7 @@
     
     <url>
      <loc>/use_case_3-3/</loc>
-     <lastmod>2017-11-16</lastmod>
+     <lastmod>2017-12-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -69,25 +69,25 @@
         
     <url>
      <loc>/install_metavisitor/</loc>
-     <lastmod>2017-11-16</lastmod>
+     <lastmod>2017-12-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/metavisitor_ansible/</loc>
-     <lastmod>2017-11-16</lastmod>
+     <lastmod>2017-12-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/metavisitor_docker/</loc>
-     <lastmod>2017-11-16</lastmod>
+     <lastmod>2017-12-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/metavisitor_access_control/</loc>
-     <lastmod>2017-11-16</lastmod>
+     <lastmod>2017-12-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
